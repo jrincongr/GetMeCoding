@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
 
   <!-- responsive meta tag -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
 
   <!-- Bootstrap CSS Link -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -22,39 +22,106 @@
 
 <body>
 
-  <!-- NavBar (copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/) -->
-  <!-- Static navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- NavBar (copied and pasted from https://getbootstrap.com/docs/4.5/components/navbar/) -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-    <!-- Navbar header -->
-    <span class="navbar-brand mb-0 h1">Javier Rincón-Gallardo</span>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    
-    <!-- Navbar side menue responsive hamburguer -->
-    <div class="collapse navbar-collapse" id="navbarNav">
-
-      <!-- Un ordered list of section within the navbar hamburguer menue -->
-      <ul class="navbar-nav">
-
-        <!-- list item "About/Home" button link to "index.html" (Current page) -->
-        <li class="nav-item">
-          <a class="nav-link" href="./index.html">About</a>
-        </li>
-
-        <!-- list item "Portfolio" button link to "portfolio.html" -->
-        <li class="nav-item active">
-          <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</span></a>
-        </li>
+        <!-- Navbar header -->
+        <span class="navbar-brand mb-0 h1 col-lg-10">Javier Rincón-Gallardo</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
         
-        <!-- list item "Contact" button link to "contact.html" -->
-        <li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
+        <!-- Navbar side menue responsive hamburguer -->
+        <div class="collapse navbar-collapse" id="navbarNav">
 
-      </ul>
+            <!-- Un ordered list of section within the navbar hamburguer menue -->
+            <ul class="navbar-nav">
+
+                <!-- list item "About/Home" button link to "index.html" (Current page) -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./index.html">About</a>
+                </li>
+
+                <!-- list item "Portfolio" button link to "portfolio.html" -->
+                <li class="nav-item active">
+                    <a class="nav-link" href="./portfolio.html">Portfolio <span class="sr-only">(current)</a>
+                </li>
+                
+                <!-- list item "Contact" button link to "contact.html" -->
+                <li class="nav-item">
+                    <a class="nav-link" href="./contact.html">Contact</span></a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+  <!-- Main Body Container -->
+  <section class="container">
+    
+    <!-- First row-->
+    <div class="row">
+
+      <!-- Section Title -->
+      <div class="col-lg-12">
+          <div class="card-body">
+            <h2>Portfolio</h2>
+          </div>
+        </div>
+      </div>
+      
     </div>
-  </nav>
+    <br>
+
+    <!-- Second row-->
+    <div class="row">
+
+      <!-- Picture of me -->
+      <div class="col-lg-3 float-left">
+        <img class="img img-thumbnail" src="./Assets/Images/MyPicture1.jpeg" />
+      </div>
+
+      <div class="col-lg-3 float-left">
+        <img class="img img-thumbnail" src="./Assets/Images/MyPicture1.jpeg" />
+      </div>
+
+     <!-- Third row-->
+     <div class="row">
+
+        <!-- Picture of me -->
+        <div class="col-lg-3 float-left">
+          <img class="img img-thumbnail" src="./Assets/Images/MyPicture1.jpeg" />
+        </div>
+  
+        <div class="col-lg-3 float-left">
+          <img class="img img-thumbnail" src="./Assets/Images/MyPicture1.jpeg" />
+        </div>
+
+     <!-- fourth row-->
+     <div class="row">
+
+        <!-- Picture of me -->
+        <div class="col-lg-3 float-left">
+          <img class="img img-thumbnail" src="./Assets/Images/MyPicture1.jpeg" />
+        </div>
+
+  
+    <!-- scripts required to allow some Bootstrap components to work -->
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous" >
+        </script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous" >
+    </script>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous">
+    </script>
 
 </body>
