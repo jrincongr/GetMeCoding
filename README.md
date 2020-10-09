@@ -6,7 +6,7 @@ This is an other version of my portfolio that shows how far I have gone, the new
 ## URL
 
 ### Github aplication URL
-!!!
+https://jrincongr.github.io/GetMeCoding/
 
 ### Github repository URL
 https://github.com/jrincongr/GetMeCoding
