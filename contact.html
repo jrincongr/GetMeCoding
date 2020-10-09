@@ -1,9 +1,9 @@
-<!-- My Portfolio "index.html" file -->
+<!-- My Portfolio "contact.html" file -->
 <!DOCTYPE html>
 <html lang="en-us">
 
 <head>
-
+  
   <meta charset="UTF-8">
 
   <!-- responsive meta tag -->
@@ -38,7 +38,7 @@
             <!-- Un ordered list of section within the navbar hamburguer menue -->
             <ul class="navbar-nav">
 
-                <!-- list item "About/Home" button link to "index.html" (Current page) -->
+                <!-- list item "About/Home" button link to "index.html" -->
                 <li class="nav-item">
                     <a class="nav-link" href="./index.html">About</a>
                 </li>
@@ -48,7 +48,7 @@
                     <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 
-                <!-- list item "Contact" button link to "contact.html" -->
+                <!-- list item "Contact" button link to "contact.html" (Current page) -->
                 <li class="nav-item active">
                     <a class="nav-link" href="./contact.html">Contact <span class="sr-only">(current)</span></a>
                 </li>
@@ -79,35 +79,49 @@
             </div>
             
             <!-- Body -->
+            <!-- Name -->
             <div class="md-form">
               <i class="fas fa-user prefix grey-text"></i>
               <input type="text" id="form-name" class="form-control">
               <label for="form-name">Your name</label>
             </div>
+
+            <!-- email -->
             <div class="md-form">
               <i class="fas fa-envelope prefix grey-text"></i>
               <input type="text" id="form-email" class="form-control">
               <label for="form-email">Your email</label>
             </div>
+
+            <!-- subject -->
             <div class="md-form">
               <i class="fas fa-tag prefix grey-text"></i>
               <input type="text" id="form-Subject" class="form-control">
               <label for="form-Subject">Subject</label>
             </div>
+
+            <!-- message -->
             <div class="md-form">
               <i class="fas fa-pencil-alt prefix grey-text"></i>
               <textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
               <label for="form-text">Send message</label>
             </div>
+
+            <!-- submit button -->
             <div class="text-center">
-              <button class="btn btn-light-blue">Submit</button>
+              <button class="btn btn-light-blue" onclick="myFunction()">Submit</button>
+
+              <!-- js function "alert" script -->
+              <script>
+                function myFunction() {
+                  alert("Thank you for sending your information, I will get in touch with you really soon");
+                }
+              </script>
             </div>
+
           </div>
         </div>
         <!-- Form with header -->
-  
-      </div>
-      
   
       </div>
       <!-- Grid column -->
